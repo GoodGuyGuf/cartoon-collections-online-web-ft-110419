@@ -16,5 +16,5 @@ end
 
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
-array.detect{|food| food.even?}
+array.detect{|food| food.is_a?(cheddar)}
 end
